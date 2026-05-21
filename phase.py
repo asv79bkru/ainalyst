@@ -19,6 +19,10 @@ import os
 import sys
 from pathlib import Path
 
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 # ---------------------------------------------------------------------------
 # Корень проекта — для абсолютных путей в .mcp.json (ADR-REVIEW-п10)
 # ---------------------------------------------------------------------------
