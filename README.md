@@ -109,7 +109,7 @@ AIналитик проверяет по 9 характеристикам BABOK:
 Скачайте проект и установите зависимости:
 
 ```bash
-git clone https://github.com/chaussky/ainalyst.git
+git clone https://github.com/asv79bkru/ainalyst.git
 cd ainalyst
 pip install -r requirements.txt
 ```
